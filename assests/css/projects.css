@@ -5,6 +5,7 @@ html, body {
 #project-div {
     width: 25%;
     margin: 0 auto;
+    padding: 1%;
   }
   .projects {
       margin: 0%;
