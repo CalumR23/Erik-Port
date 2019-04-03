@@ -13,4 +13,11 @@ html, body {
 .header {
     width: 25%;
     margin: 0 auto;
+    padding: 2%;
   }
+  .footer {
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    text-align: center;
+    padding: 1%;
+}

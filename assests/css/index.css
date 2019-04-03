@@ -2,11 +2,14 @@ html, body {
     margin: 0px;
     padding: 0%;
 }
-.navbar{
-    margin: 0%;
-    padding: 0%;
-}
 .header {
     width: 25%;
     margin: 0 auto;
+    padding: 2%;
+  }
+  .footer {
+      background-color: cornflowerblue;
+      color: whitesmoke;
+      text-align: center;
+      padding: 1%;
   }
