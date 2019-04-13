@@ -5,71 +5,126 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Erik Mumm | Transportation Engineer</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="assests/css/index.css">
-    <title>Erik Mumm Portfolio</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="assests/css/skeleton.css">
+    <link rel="stylesheet" href="assests/css/style.css">
 </head>
 
 <body>
+    <div class="header">
+        <img id="profileimg" src="assests/images/erikm.jpg">
+        <h3>Welcome! I'm Erik Mumm</h3>
+        <h5>Transportation Engineer based in San Diego</h5>
+    </div>
+    <hr>
+    <section class="row">
+        <summary class="nine columns">
+            <h3><i class="fa fa-user" aria-hidden="true"></i>About Me </h3>
+            <p class="info">I am student at UCSD studying Urban Planning and Data Science. Using my skills, I create and implement soultions and innovations to help better our transportation systems.  In my free time I love travelling and I am an avid camper. I also enjoy trying the lastest food trends, watching the latest movies, or just enjoying what life's got!
+            </p>
+        </summary>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand">Erik Mumm</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="projects.html">Projects</a>
-                </li>
+
+        <nav class="three columns">
+
+            <button  onclick="window.open('https://www.linkedin.com/in/erikdmumm/');">
+                <img src='assests/images/linkedin.svg.svg' class='linkedin-icon' />
+                LinkedIn</button>
+            <button class="fa fa-envelope" onclick="window.location='#contact-info'"> Contact</button>
+
+
+
+        </nav>
+    </section>
+
+    <hr>
+    <div id="portfolio">
+        <h3> <i class="fa fa-briefcase" aria-hidden="true"></i>Portfolio</h3>
+        <div class="container-fluid" id="gallery" name="gallery">
+            <div class="row row-10 row-horizontal-10">
+                <div class="col-md-6">
+                    <a class="thumb-modern" data-lightgallery="item" href="https://www.li.me/" target="_blank">
+                        <figure>
+                            <img class="projectimg" src="assests/images/Lime Photo-0430.JPG">
+                            <div class="overlay">
+                                <div class="project-text">Lime<p>Growth Specliast Intern</p></div>
+                            </div>
+                        </figure>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <a class="thumb-modern" data-lightgallery="item" href="https://cseweb.ucsd.edu/~dkohlbre/ctf/index.html" target="_blank">
+                        <figure>
+                            <img class="projectimg" src="assests/images/ctf.jpeg">
+                            <div class="overlay">
+                                <div class="project-text">CTF<p>Handsome man on the team</p></div>
+                            </div>
+                        </figure>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <a class="thumb-modern" data-lightgallery="item" href="https://www.sdmts.com/schedules-real-time/rapid" target="_blank">
+                        <figure>
+                            <img class="projectimg" src="assests/images/sandag.jpeg">
+                            <div class="overlay">
+                                <div class="project-text">Sandag<p>Made the buses go toot toot</p></div>
+                            </div>
+
+                        </figure>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <a class="thumb-modern" data-lightgallery="item" href="https://ucsd.edu/" target="_blank">
+                        <figure>
+                            <img class="projectimg" src="assests/images/geisel.jpg">
+                            <div class="overlay">
+                                <div class="project-text">UCSD Realted Thing<p>I go to this school</p></div>
+                            </div>
+                        </figure>
+                    </a>
+                </div>
+                
+
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div id="project-div">
+        <h3><i class="fa fa-globe" aria-hidden="true"></i>Experience</h3>
+        <div id="list">
+            <h5><i class="fa fa-user-tie" aria-hidden="true"></i><b>Professional</b></h5>
+            <ul>
+                <li><a href='#' target="_blank"><strong>Placeholder</strong></a>,</li>
+                <li><a href='#' target="_blank"><strong>Placeholder</strong></a>,</li>
+                <li><a href='#' target="_blank"><strong>Placeholder</strong></a>,</li>
+            </ul>
+            <h5><i class="fas fa-hands-helping" aria-hidden="true"></i><b>Voulnteer</b></h5>
+            <ul>
+                <li><a href='https://www.teamunify.com/Home.jsp?team=islsi' target="_blank"><strong>South Irvine Dolphins</strong></a>, City Run Swimteam | Assistant Head Coach</li>
+                <li><a href='#' target="_blank"><strong>Placeholder</strong></a>,</li>
+                <li><a href='#' target="_blank"><strong>Placeholder</strong></a>,</li>
             </ul>
         </div>
-    </nav>
-    <div class="container">
-        <img src="assests/images/Surprised-Pikachu (2).jpg" alt="Derik" style="width:100%;">
-        <div class="centered">Erik Mumm</div>
     </div>
-    <div id="card-holder">
-        <div class="row">
-            <div class="col-sm-8">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">About Me</h5>
-                        <img class="profilepic" src="...">
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora magnam
-                            voluptatem dolorum accusantium nobis pariatur, mollitia numquam minima aspernatur at autem
-                            possimus aut deserunt facere assumenda, porro quos nemo quia!</p>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora magnam
-                            voluptatem dolorum accusantium nobis pariatur, mollitia numquam minima aspernatur at autem
-                            possimus aut deserunt facere assumenda, porro quos nemo quia!</p>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">LinkedIn and Email</h5>
-                        <p class="card-text"><a href="https://www.linkedin.com/in/erikdmumm/"
-                                target="_blank">LinkedIn</a></p>
-                        <p class="card-text"><a href="mailto:emumm@ucsd.edu">Contact Me</a></p>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer">
+    <hr>
+    <div id="contact-info">
         <footer>
-            <p>This is the footer. Put some text here such as "Erik Mumm" or what not. Erik sucks and Calum is very
-                cute. (jk but I am cute)</p>
+
+            <section>
+                <h3><b>Contact me</b></h3>
+                <span><b><i class="fa fa-envelope"></i> E-Mail:</b> <a
+                        href="mailto:emumm@ucsd.edu">emumm@ucsd.edu</a></span><br>
+                <span class="pull-right1"><b><i class="fa fa-phone"></i> Phone:</b>(XXX)-XXX-XXXX </span><br>
+            </section>
         </footer>
     </div>
+
+
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
